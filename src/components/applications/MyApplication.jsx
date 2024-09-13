@@ -31,7 +31,7 @@ const MyApplications = () => {
             withCredentials: true,
           })
           .then((res) => {
-            setApplications(res.data.application);
+            setApplications(res.data.applications);
             console.log("printing applications");
             console.log(applications);
           });
