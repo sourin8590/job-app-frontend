@@ -23,7 +23,7 @@ const MyApplications = () => {
             withCredentials: true,
           })
           .then((res) => {
-            setApplications(res.data.application);
+            setApplications(res.data.applications);
           });
       } else {
         axios
